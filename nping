@@ -14,7 +14,7 @@ nping --udp [target host] -p 53 --data-length 100
 nping --tcp [target host] --rate 50 -c 500
 
 # To send an ARP request to a particular host
-ping --arp [target host] 
+nping --arp [target host] 
 
 # To send ARP requests to all hosts in the 192.168.1.0/24 network
 nping --arp 192.168.1.0/24 
